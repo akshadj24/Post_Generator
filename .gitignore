@@ -1,0 +1,50 @@
+# --- Python / Virtual Environment ---
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Environment Variables ---
+.env
+.flaskenv
+
+# --- AI / ML / Data ---
+*.csv
+*.json
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.faiss
+*.index
+chroma_db/
+.vectorstore/
+
+# --- Backend ---
+*.db
+*.sqlite3
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Build ---
+build/
+dist/
+*.egg-info/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Node (optional future) ---
+node_modules/
