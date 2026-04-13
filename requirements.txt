@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-core
+langchain-classic
+dotenv
+pandas
+numpy
+fast-api
+uvicorn
+setuptools
+gunicorn
