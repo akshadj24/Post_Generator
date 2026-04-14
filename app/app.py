@@ -15,8 +15,8 @@ app = FastAPI()
 # Enable CORS so your HTML file can talk to this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For production, replace "*" with your domain
-    allow_methods=["*"],
+    allow_origins=["https://post-generator-8dbf.onrender.com"],  # For production, replace "*" with your domain
+    allow_methods=["GET","POST"],
     allow_headers=["*"],
 )
 
