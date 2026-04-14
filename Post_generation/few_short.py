@@ -1,9 +1,18 @@
 import pandas as pd
 import json
+from pathlib import Path
+
+
+current_file = Path(__file__).resolve()
+
+project_root = current_file.parent.parent
+
+file_path = project_root / "Data" / "processed_post_data.json"
+
 
 
 class FewShotPosts:
-    def __init__(self, file_path="../Data/processed_post_data.json"):
+    def __init__(self, file_path=file_path):
         self.df = None
         self.unique_tags = None
         self.load_posts(file_path)
